@@ -1,0 +1,4 @@
+title: Customs
+modelClass: Creator\Custom\Models\Custom
+toolbar:
+    buttons: reorder_toolbar

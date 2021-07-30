@@ -1,0 +1,11 @@
+plugin:
+    name: 'creator.custom::lang.plugin.name'
+    description: 'creator.custom::lang.plugin.description'
+    author: creator
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Custom
+        url: creator/custom/customs
+        icon: icon-life-ring

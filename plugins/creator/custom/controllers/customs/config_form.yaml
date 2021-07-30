@@ -1,0 +1,10 @@
+name: Customs
+form: $/creator/custom/models/custom/fields.yaml
+modelClass: Creator\Custom\Models\Custom
+defaultRedirect: creator/custom/customs
+create:
+    redirect: 'creator/custom/customs/update/:id'
+    redirectClose: creator/custom/customs
+update:
+    redirect: creator/custom/customs
+    redirectClose: creator/custom/customs

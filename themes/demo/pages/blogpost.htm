@@ -1,0 +1,13 @@
+title = "BlogPost"
+layout = "default"
+url = "/blogpost/:slug"
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = 404
+
+[commentsPost]
+==
+{% component "blogPost" %}
+<h3>Comments:</h3>
+{% component "commentsPost" %}

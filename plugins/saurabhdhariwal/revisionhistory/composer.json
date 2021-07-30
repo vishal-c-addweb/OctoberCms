@@ -1,0 +1,8 @@
+{
+    "name": "saurabhdhariwal/revisionhistory-plugin",
+    "type": "october-plugin",
+    "description": "None",
+    "require": {
+        "composer/installers": "~1.5"
+    }
+}
